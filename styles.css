@@ -1,0 +1,120 @@
+@import url('https://fonts.google.com/specimen/Poppins');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+
+}
+body {
+    font-family: Poppins;
+    font-size: 16px;
+    background-image: url("../images/bg-intro-desktop.png");
+    background-color: hsl(0, 100%, 74%);
+    
+}
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.text {
+    align-items: center;
+    flex-wrap: wrap;
+}
+.large-text {
+    flex-wrap: wrap;
+    flex: 1;
+    font-weight: 700;
+    font-size: 60px;
+    margin-top: 210px;
+    width: 450px;
+    color: white;
+
+}
+.smaller-text {
+    flex-wrap: wrap;
+    flex: 1;
+    color: whitesmoke;
+    margin-top: 20px;
+    width: 500px;
+    font-size: 20px;
+
+}
+.form-header {
+    flex-wrap: wrap;
+    flex: 1;
+    margin-top: 160px;
+    margin-bottom: 25px;
+    border: 2px solid hsl(248, 32%, 49%);
+    background-color: hsl(248, 32%, 49%);
+    padding: 10px;
+    text-align: center;
+    border-radius: 7px;
+    box-shadow:0px 5px 2px black;
+    color: white;
+
+}
+.form {
+    flex-wrap: wrap;
+    flex: 1;
+    background-color: white;
+    padding: 20px;
+    border-radius: 7px;
+}
+#first-name {
+    margin-bottom: 30px;
+    font-size: 16px;
+    width: 400px;
+    height: 50px;
+    border-radius: 5px;
+    padding-left: 25px;
+
+}
+#last-name {
+    margin-bottom: 30px;
+    font-size: 16px;
+    width: 400px;
+    height: 50px;
+    border-radius: 5px;
+    padding-left: 25px;
+
+}
+#email {
+    margin-bottom: 30px;
+    font-size: 16px;
+    width: 400px;
+    height: 50px;
+    border-radius: 5px;
+    padding-left: 25px;
+
+}
+#password {
+    margin-bottom: 30px;
+    font-size: 16px;
+    width: 400px;
+    height: 50px;
+    border-radius: 5px;
+    padding-left: 25px;
+
+}
+#btn {
+    background-color: hsl(154, 59%, 51%);
+    padding: 10px;
+    text-align: center;
+    width: 400px;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.terms {
+    color: hsl(246, 25%, 77%);
+    font-size: 12px;
+    text-align: center;
+}
+#red {
+    color: hsl(0, 100%, 74%);
+}
+footer {
+    margin-top: 50px;
+    font-size: 86px;
+}
