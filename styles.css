@@ -131,8 +131,10 @@ body {
     flex-wrap: wrap;
     flex: 1;
     padding-left: 95px;
-    padding-right: 95px;
+    padding-right: 98px;
     text-align: center;
+    color: white;
+    border: hsl(154, 59%, 51%) solid;
     
 }
 .terms {
