@@ -28,13 +28,15 @@ body {
     flex: 1;
     font-weight: 700;
     font-size: 60px;
-    margin-top: 210px;
+    margin-top: 190px;
+    width: 100%
    ;
     color: white;
 
 }
 .smaller-text {
     flex-wrap: wrap;
+    width: 100%;
    
     color: whitesmoke;
     margin-top: 20px;
@@ -45,7 +47,7 @@ body {
 .form-header {
     flex-wrap: wrap;
     
-    margin-top: 160px;
+    margin-top: 100px;
     margin-bottom: 25px;
     border: none;
     background-color: hsl(248, 32%, 49%);
@@ -56,9 +58,7 @@ body {
     color: white;
     max-width: 400px;
     text-align: center;
-    margin-left: 20px;
-    padding-left: 60px;
-    padding-right: 53px;
+    width: 100%;
     cursor: pointer;
 
 
@@ -68,76 +68,50 @@ body {
 
 }
 .form {
-    flex-wrap: wrap;
-    flex: 1;
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
     background-color: white;
+    width: 100%;
+    border-radius: 5px;
     padding: 10px;
-    border-radius: 7px;
-    max-width: 400px;
-    margin-left: 20px;
-    margin-right: 20px;
-}
-#first-name {
-    margin-bottom: 30px;
     font-size: 16px;
+}
+.input-control {
+   display: flex;
+   flex-direction: column;
+   margin: 20px;
+}
+.input-control input {
+    width: 100%;
+    padding: 10px;
+    padding-left: 20px;
     
-    height: 50px;
-    border-radius: 5px;
-    padding-left: 25px;
-    flex-wrap: wrap;
-    flex: 1;
-    padding-right: 100px;
-
-}
-#last-name {
-    margin-bottom: 30px;
-    font-size: 16px;
-
-    height: 50px;
-    border-radius: 5px;
-    padding-left: 25px;
-    flex-wrap: wrap;
-    flex: 1;
-    padding-right: 100px;
-
-}
-#email {
-    margin-bottom: 30px;
-    font-size: 16px;
+    font-size: 15px;
     
-    height: 50px;
-    border-radius: 5px;
-    padding-left: 25px;
-    flex-wrap: wrap;
-    flex: 1;
-    padding-right: 100px;
 
 }
-#password {
-    margin-bottom: 30px;
-    font-size: 16px;
-    
-    height: 50px;
-    border-radius: 5px;
-    padding-left: 25px;
-    flex-wrap: wrap;
-    flex: 1;
-    padding-right: 100px;
-
+.input-control input:focus {
+    outline: none;
 }
+.input-control.success input {
+    border-color:hsl(154, 59%, 51%);
+}
+.input-control.error input {
+    border-color: rgb(202, 5, 5);
+}
+.error {
+    font-size: 10px;
+    color: rgb(202, 5, 5);
+    height: 13px;
+}
+
 #btn {
     background-color: hsl(154, 59%, 51%);
     padding: 10px;
-    text-align: center;
-    
+    width: 100%;
     border-radius: 5px;
     font-size: 16px;
-    margin-bottom: 15px;
-    flex-wrap: wrap;
-    flex: 1;
-    padding-left: 95px;
-    padding-right: 98px;
-    text-align: center;
     color: white;
     border:  none;
     transition: 0.4s;
@@ -150,13 +124,17 @@ body {
     color: hsl(246, 25%, 77%);
     font-size: 12px;
     text-align: center;
+    margin-top: 10px;
+    
+    padding-left: 20px;
+    padding-right: 20px;
 }
 #red {
     color: hsl(0, 100%, 74%);
 }
 footer {
     margin-top: 50px;
-    font-size: 86px;
+    font-size: 16px;
     max-width: 400px;
 }
 input:focus {

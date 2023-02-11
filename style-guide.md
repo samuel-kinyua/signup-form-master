@@ -33,3 +33,30 @@ The designs were created to the following widths:
 
 - Family: [Poppins](https://fonts.google.com/specimen/Poppins)
 - Weights: 400, 500, 600, 700
+
+
+ <!--<script>
+    function checkForBlank() {
+      if (document.getElementById('first-name').value == "" ){
+        
+        document.getElementById('first-name').style.borderColor = "red";
+        return false;
+      }
+      else if (document.getElementById('last-name').value == ""){
+       
+        document.getElementById('last-name').style.borderBlockColor = "red";
+        return false;
+      }
+      else if (document.getElementById('email').value == ""){
+       
+       document.getElementById('email').style.borderBlockColor = "red";
+       return false;
+     }
+     else if (document.getElementById('password').value == ""){
+       
+       document.getElementById('password').style.borderBlockColor = "red";
+       return false;
+     }
+  
+    }   
+  </script> -->
