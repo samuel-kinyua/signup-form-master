@@ -20,7 +20,7 @@ body {
 .text {
     align-items: center;
     flex-wrap: wrap;
-    max-width: 450px;
+    max-width: 500px;
     padding-left: 10px;
 }
 .large-text {
@@ -41,7 +41,7 @@ body {
     color: whitesmoke;
     margin-top: 20px;
     
-    font-size: 20px;
+    font-size: 17px;
 
 }
 .form-header {
