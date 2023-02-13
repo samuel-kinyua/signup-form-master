@@ -93,3 +93,17 @@ We love receiving feedback! We're always looking to improve our challenges and o
 This challenge is completely free. Please share it with anyone who will find it useful for practice.
 
 **Have fun building!** 🚀
+
+
+
+
+
+
+flex-wrap: wrap;
+    flex: 1;
+    background-color: white;
+    padding: 10px;
+    border-radius: 7px;
+    max-width: 400px;
+    margin-left: 20px;
+    margin-right: 20px;

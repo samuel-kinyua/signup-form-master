@@ -28,7 +28,7 @@ body {
     flex: 1;
     font-weight: 700;
     font-size: 60px;
-    margin-top: 190px;
+    margin-top: 120px;
     width: 100%
    ;
     color: white;
@@ -47,7 +47,7 @@ body {
 .form-header {
     flex-wrap: wrap;
     
-    margin-top: 100px;
+    margin-top: 80px;
     margin-bottom: 25px;
     border: none;
     background-color: hsl(248, 32%, 49%);
@@ -68,31 +68,35 @@ body {
 
 }
 .form {
-    display: flex;
-    flex-direction: column;
-    max-width: 500px;
+    
+    max-width: 400px;
     background-color: white;
     width: 100%;
     border-radius: 5px;
-    padding: 10px;
+    padding: 20px;
+   
+  
     font-size: 16px;
 }
 .input-control {
    display: flex;
    flex-direction: column;
-   margin: 20px;
+   margin: 10px;
 }
 .input-control input {
     width: 100%;
-    padding: 10px;
-    padding-left: 20px;
-    
+    padding: 12px;
+    padding-left: 10px;
+
+    border: 2px solid rgb(238, 236, 236);
     font-size: 15px;
+    display: block;
+    
     
 
 }
 .input-control input:focus {
-    outline: none;
+    outline: 0;
 }
 .input-control.success input {
     border-color:hsl(154, 59%, 51%);
@@ -101,9 +105,11 @@ body {
     border-color: rgb(202, 5, 5);
 }
 .error {
-    font-size: 10px;
-    color: rgb(202, 5, 5);
-    height: 13px;
+    font-size: 12px;
+    color: red;
+    height: 49px;
+    
+   
 }
 
 #btn {
@@ -116,6 +122,7 @@ body {
     border:  none;
     transition: 0.4s;
     cursor: pointer;
+    margin-top: 20px;
 }
 #btn:hover {
     background-color:hsl(154, 89%, 33%);
@@ -139,7 +146,9 @@ footer {
 }
 input:focus {
     background-color: hsl(0, 9%, 87%);
+    
 }
 input:hover{
-    background-color: hsl(0, 9%, 87%);
+    background-color: rgb(248, 244, 244);
 }
+
