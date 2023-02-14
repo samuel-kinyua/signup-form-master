@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./signupscreenshot.png)
+![](../images/signupscreenshot.png)
 
 
 
