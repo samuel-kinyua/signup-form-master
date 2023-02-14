@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](/home/sam/signup-form-master/images/signupscreenshot.png)
+![](../images/signupscreenshot.png)
 
 
 
