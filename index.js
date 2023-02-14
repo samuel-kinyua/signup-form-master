@@ -59,7 +59,7 @@
     if(emailValue === ''){
       setError(email,'email is required');
     } else if (!isValidEmail(emailValue)){
-      setError(email, 'please provide a valid email');
+      setError(email, 'Looks like this is not an email');
     }else {
       setSuccess(email);
     }
