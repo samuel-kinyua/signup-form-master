@@ -39,8 +39,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://www.frontendmentor.io/solutions/responsive-landing-page-with-a-signup-form-y2kaE80Fog](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://samssignupform.netlify.app/)
+- Solution URL: [https://www.frontyendmentor.io/solutions/responsive-landing-page-with-a-signup-form-y2kaE80Fog](https://your-solution-url.com)
+- Live Site URL:[https://samssignupform.netlify.app/](https://samssignupform.netlify.app/)
 
 ## My process
 I created the html and used various htmls elemsnts and used classes to group content togther to facilitate group styling in css as well as id's to make individual styles to specific elemnts using css. I used the css flexbox to create the layout of the webpage.then used javascript for dom manupulation that allowed me to have client side form validation.
